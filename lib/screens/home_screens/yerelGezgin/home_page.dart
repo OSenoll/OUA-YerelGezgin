@@ -42,7 +42,7 @@ class _YerelGezginPageState extends State<YerelGezginPage> {
         backgroundColor: Colors.blueGrey[300],
         title: Center( // Programın isminin yazdığı kısım
           child: Text(
-            LocaleKeys.earthquaker_title.tr(),
+            LocaleKeys.yerelGezgin_title.tr(),
             style: GoogleFonts.poppins(
               color: Colors.black87,
               fontSize: 28,
@@ -73,7 +73,7 @@ class _YerelGezginPageState extends State<YerelGezginPage> {
 
             child: Center(
               child: Text(
-                LocaleKeys.earthquaker_reports.tr(), // Rapor isimleri
+                LocaleKeys.yerelGezgin_reports.tr(), // Rapor isimleri
                 style: const TextStyle(
                   fontFamily: "albertSans",
                   fontWeight: FontWeight.bold,

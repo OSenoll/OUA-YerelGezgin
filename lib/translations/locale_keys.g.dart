@@ -81,21 +81,21 @@ abstract class  LocaleKeys {
   static const information_page_post = 'information_page_post';
   static const maps_title = 'maps_title';
 
-  static const earthquaker_title = 'Yerel Gezgin';
+  static const yerelGezgin_title = 'Yerel Gezgin';
 
-  static const earthquaker_reports = 'earthquaker_reports';
-  static const earthquaker_choose = 'earthquaker_choose';
-  static const earthquaker_report_missing = 'earthquaker_report_missing';
-  static const earthquaker_report_debris = 'earthquaker_report_debris';
-  static const earthquaker_report_missing_location = 'earthquaker_report_missing_location';
-  static const earthquaker_debris_page_cancel = 'earthquaker_debris_page_cancel';
-  static const earthquaker_debris_page_create = 'earthquaker_debris_page_create';
-  static const earthquaker_debris_page_type = 'earthquaker_debris_page_type';
-  static const earthquaker_debris_page_post = 'earthquaker_debris_page_post';
-  static const earthquaker_debris_page_pick_image = 'earthquaker_debris_page_pick_image';
-  static const earthquaker_debris_page_camera = 'earthquaker_debris_page_camera';
-  static const earthquaker_debris_page_gallery = 'earthquaker_debris_page_gallery';
-  static const earthquaker_debris_page_camera_cancel = 'earthquaker_debris_page_camera_cancel';
-  static const earthquaker_debris_page_post_shared = 'earthquaker_debris_page_post_shared';
+  static const yerelGezgin_reports = 'Feed';
+  static const yerelGezgin_choose = 'yerelGezgin_choose';
+  static const yerelGezgin_report_missing = 'yerelGezgin_report_missing';
+  static const yerelGezgin_report_debris = 'yerelGezgin_report_debris';
+  static const yerelGezgin_report_missing_location = 'yerelGezgin_report_missing_location';
+  static const yerelGezgin_debris_page_cancel = 'yerelGezgin_debris_page_cancel';
+  static const yerelGezgin_debris_page_create = 'yerelGezgin_debris_page_create';
+  static const yerelGezgin_debris_page_type = 'yerelGezgin_debris_page_type';
+  static const yerelGezgin_debris_page_post = 'yerelGezgin_debris_page_post';
+  static const yerelGezgin_debris_page_pick_image = 'yerelGezgin_debris_page_pick_image';
+  static const yerelGezgin_debris_page_camera = 'yerelGezgin_debris_page_camera';
+  static const yerelGezgin_debris_page_gallery = 'yerelGezgin_debris_page_gallery';
+  static const yerelGezgin_debris_page_camera_cancel = 'yerelGezgin_debris_page_camera_cancel';
+  static const yerelGezgin_debris_page_post_shared = 'yerelGezgin_debris_page_post_shared';
 
 }

@@ -125,7 +125,7 @@ class _MissingPostPageState extends State<MissingPostPage> {
         ),
         backgroundColor: Colors.blueGrey[300],
         title: Text(
-          LocaleKeys.earthquaker_debris_page_create.tr(),
+          LocaleKeys.yerelGezgin_debris_page_create.tr(),
           style: GoogleFonts.prozaLibre(
             color: Colors.black,
             fontSize: 20,
@@ -141,7 +141,7 @@ class _MissingPostPageState extends State<MissingPostPage> {
               height: 20.0,
             ),
             buildTextField(postController,
-                LocaleKeys.earthquaker_debris_page_type.tr(), false),
+                LocaleKeys.yerelGezgin_debris_page_type.tr(), false),
             const SizedBox(
               height: 10.0,
             ),
@@ -203,7 +203,7 @@ class _MissingPostPageState extends State<MissingPostPage> {
                       color: Colors.white,
                     ),
                     title: Text(
-                      LocaleKeys.earthquaker_report_missing_location
+                      LocaleKeys.yerelGezgin_report_missing_location
                           .tr(),
                       style: const TextStyle(
                         color: Colors.white,
@@ -224,7 +224,7 @@ class _MissingPostPageState extends State<MissingPostPage> {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: postReport,
         icon: const Icon(Icons.save),
-        label: Text(LocaleKeys.earthquaker_debris_page_post.tr()),
+        label: Text(LocaleKeys.yerelGezgin_debris_page_post.tr()),
         backgroundColor: Colors.black,
       ),
     );
