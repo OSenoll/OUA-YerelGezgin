@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902449056444",
+    "project_id": "ouayerelrehber",
+    "storage_bucket": "ouayerelrehber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902449056444:android:cd4bb8ae2af2b13ca65eb9",
+        "android_client_info": {
+          "package_name": "com.example.google_solution_challenge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqPeeR6MGSQCNm_6CAM9hsggCbVHNSDuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

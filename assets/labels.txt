@@ -1,0 +1,3 @@
+0 Plaster Crack
+1 Paint Crack
+2 Structural Crack
