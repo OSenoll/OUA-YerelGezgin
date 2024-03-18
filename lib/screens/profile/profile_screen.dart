@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_solution_challenge/models/languages.dart';
 import 'package:google_solution_challenge/screens/login/service/login_service.dart';
 import 'package:google_solution_challenge/screens/profile/edit_profile.dart';
-import 'package:google_solution_challenge/screens/profile/sos_rev.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import "package:flutter/material.dart";
 import 'package:google_fonts/google_fonts.dart';
@@ -26,9 +25,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
   String username = "";
   String description = "";
   int posts = 0;
-  final String _language='';
-
-  static String nullSafeStr(String source) => (source.isEmpty || source == "null") ? "" : source;
 
   signUserOut() async {
     await Provider.of<FirebaseUserAuthentication>(context, listen: false)
@@ -75,14 +71,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
     }
   }
 
-  void sos_mobile() {
-    Navigator.push(
-        context, MaterialPageRoute(builder: (context) => const SOSButton())); //SosMobile
-  }
 
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
 
 
     return Scaffold(
